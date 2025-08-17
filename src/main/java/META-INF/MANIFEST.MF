@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: autommationexpansion
+Specification-Vendor: ThediamondDolphin8130
+Specification-Version: 1
+Implementation-Title: forge-1.20.1-47.1.30-mdk
+Implementation-Version: 0.0.1
+Implementation-Vendor: ThediamondDolphin8130
+Implementation-Timestamp: 2025-05-08T18:58:49+0100
+
