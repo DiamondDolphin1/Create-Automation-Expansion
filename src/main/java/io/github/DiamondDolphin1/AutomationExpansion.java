@@ -1,4 +1,4 @@
-package io.github.DiamondDolphin1;
+ package io.github.DiamondDolphin1;
 
 import io.github.DiamondDolphin1.init.BlockInit;
 import io.github.DiamondDolphin1.init.CreativeTabInit;
@@ -23,7 +23,5 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
    }
 }
-
-
 
 

@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "automationexpansion"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "automationexpansion:coal_chunks"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 100
+    },
+    {
+      "item": "automationexpansion:crystal_seed"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:prismarine_shard",
+      "count": 5
+    }
+  ]
+}

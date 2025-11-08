@@ -51,7 +51,7 @@ public static final RegistryObject<Item> Fluorite_Crystals = ITEMS.register("flu
         ));
 
 
-public static final RegistryObject<Item> Crystalite_Bud_Seeds = ITEMS.register("crystallite_seeds",
+public static final RegistryObject<Item> Crystalite_Bud_Seeds = ITEMS.register("crystalite_seeds",
         () -> new ItemNameBlockItem(BlockInit.CRYSTALITE_BUD.get(), new Item.Properties()
                 .rarity(Rarity.UNCOMMON)
         ));

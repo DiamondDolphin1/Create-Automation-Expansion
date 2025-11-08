@@ -1,6 +1,6 @@
 package io.github.DiamondDolphin1.init;
 
-import io.github.DiamondDolphin1.automationexpansion.block.custom.CrystalliteBudBlock;
+import io.github.DiamondDolphin1.automationexpansion.block.custom.CrystaliteBudBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -27,8 +27,8 @@ public class BlockInit {
 
             ));
 
-    public static final RegistryObject<Block> CRYSTALITE_BUD = BLOCKS.register("crystalite_seed",
-            () -> new CrystalliteBudBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)
+    public static final RegistryObject<Block> CRYSTALITE_BUD = BLOCKS.register("crystalite_bud",
+            () -> new CrystaliteBudBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)
                     .noOcclusion()
                     .noCollission()
             ));

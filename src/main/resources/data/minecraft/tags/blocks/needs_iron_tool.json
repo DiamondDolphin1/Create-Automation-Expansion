@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "automationexpansion:ruby_block",
+    "automationexpansion:raw_ruby_block",
+    "automationexpansion:ruby_ore"
+  ]
+}

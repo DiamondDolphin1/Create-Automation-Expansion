@@ -16,6 +16,13 @@ public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.cr
                   .displayItems((displayParams, output) -> {
                       output.accept(ItemInit.Netherite_Shrapnel.get());
                       output.accept(ItemInit.Coal_Chunks.get());
+                      output.accept(ItemInit.Diamond_Shards.get());
+                      output.accept(ItemInit.Raw_Ruby.get());
+                      output.accept(ItemInit.Crushed_Ruby.get());
+                      output.accept(ItemInit.Fluorite_Crystals.get());
+                      output.accept(ItemInit.Crystalite_Bud_Seeds.get());
+                      output.accept(ItemInit.Ruby.get());
+                      output.accept(ItemInit.Ruby_Block_Item.get());
                   })
                   .build()
   );

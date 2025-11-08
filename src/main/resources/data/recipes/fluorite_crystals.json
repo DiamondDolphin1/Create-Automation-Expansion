@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "automationexpansion"
+    }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:snowballs",
+      "count": 10
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "count": 5
+    },
+    {
+      "item": "minecraft:sand",
+      "count": 3
+    }
+  ],
+  "results": [
+    {
+      "item": "automationexpansion:fluorite_crystals"
+    }
+  ],
+  "heatRequirement": "superheated"
+}
