@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "automationexpansion"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 200
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:prismarine_crystals",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "heated"
+}

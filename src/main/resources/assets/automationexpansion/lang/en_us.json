@@ -10,13 +10,9 @@
   "item.automationexpansion.raw_ruby": "Raw Ruby",
   "item.automationexpansion.crystalite_seeds": "Crystalite Seeds",
   "item.automationexpansion.crystalite_budding": "Crystalite Budding",
-  "item.automationexpansion.pentafluro_water_bucket": "Bucket of Pentafluro Water",
 
   "block.automationexpansion.ruby_block": "Ruby Block",
   "block.automationexpansion.raw_ruby_block": "Raw Ruby Block",
   "block.automationexpansion.ruby_ore": "Ruby Ore",
-  "block.automationexpansion.crystalite_bud": "Crystalite Bud",
-
-  "gui.automationexpansion.example_block_screen": "Example Block Screen",
-  "gui.automationexpansion.example_block_screen.button.example_button": "Example Button"
+  "block.automationexpansion.crystalite_bud": "Crystalite Bud"
 }

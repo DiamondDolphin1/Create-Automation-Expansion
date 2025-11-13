@@ -1,6 +1,7 @@
 package io.github.DiamondDolphin1.init;
 
-import io.github.DiamondDolphin1.automationexpansion.block.custom.CrystaliteBudBlock;
+import io.github.DiamondDolphin1.automationexpansion.block.*;
+import io.github.DiamondDolphin1.automationexpansion.block.crops.CrystaliteBudBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -31,5 +32,22 @@ public class BlockInit {
             () -> new CrystaliteBudBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)
                     .noOcclusion()
                     .noCollission()
+            ));
+
+    public static final RegistryObject<TestBlockEntity> TEST_BLOCK_ENTITY = BLOCKS.register("test_block_entity",
+            () -> new TestBlockEntity(BlockBehaviour.Properties.copy(Blocks.ANVIL)
+                    .mapColor(MapColor.COLOR_BLUE)
+                    .strength(5.0f, 15f)
+            ));
+    public static final RegistryObject<ExampleTickingBlock> EXAMPLE_TICKING_BLOCK = BLOCKS.register("example_ticking_block",
+            () -> new ExampleTickingBlock(BlockBehaviour.Properties.copy(Blocks.BEEHIVE)
+            ));
+
+    public static final RegistryObject<ExampleSyncedBlock> EXAMPLE_SYNCED_BLOCK = BLOCKS.register("example_synced_block",
+            () -> new ExampleSyncedBlock(BlockBehaviour.Properties.copy(Blocks.BEEHIVE)
+            ));
+
+    public static final RegistryObject<ExampleScreenBlock> EXAMPLE_SCREEN_BLOCK = BLOCKS.register("example_screen_block",
+            () -> new ExampleScreenBlock(BlockBehaviour.Properties.copy(Blocks.BEEHIVE)
             ));
 }

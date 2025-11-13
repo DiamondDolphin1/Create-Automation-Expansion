@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "automationexpansion:block/test_block_entity"},
+    "facing=east": { "model":  "automationexpansion:block/test_block_entity", "y":  90},
+    "facing=south": { "model":  "automationexpansion:block/test_block_entity", "y":  90},
+    "facing=west": { "model":  "automationexpansion:block/test_block_entity", "y":  90}
+  }
+}

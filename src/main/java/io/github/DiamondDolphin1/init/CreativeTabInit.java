@@ -23,6 +23,9 @@ public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.cr
                       output.accept(ItemInit.Crystalite_Bud_Seeds.get());
                       output.accept(ItemInit.Ruby.get());
                       output.accept(ItemInit.Ruby_Block_Item.get());
+                      output.accept(ItemInit.Crystalite_Budding.get());
+                      output.accept(ItemInit.Raw_Ruby_Block_Item.get());
+                      output.accept(ItemInit.Test_Block_Entity.get());
                   })
                   .build()
   );

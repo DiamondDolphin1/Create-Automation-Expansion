@@ -1,8 +1,6 @@
  package io.github.DiamondDolphin1;
 
-import io.github.DiamondDolphin1.init.BlockInit;
-import io.github.DiamondDolphin1.init.CreativeTabInit;
-import io.github.DiamondDolphin1.init.ItemInit;
+import io.github.DiamondDolphin1.init.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -19,7 +17,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
     ItemInit.ITEMS.register(bus);
     CreativeTabInit.TABS.register(bus);
-       BlockInit.BLOCKS.register(bus);
+    BlockInit.BLOCKS.register(bus);
+    BlockEntityInit.BLOCK_ENTITIES.register(bus);
+       FluidInit.FLUID_TYPES.register(bus);
+       FluidInit.FLUIDS.register(bus);
 
    }
 }
