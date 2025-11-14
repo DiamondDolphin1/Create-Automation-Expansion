@@ -1,0 +1,31 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+    { "item": "minecraft:snowball" },
+
+    { "item": "minecraft:prismarine_crystals" },
+    { "item": "minecraft:prismarine_crystals" },
+    { "item": "minecraft:prismarine_crystals" },
+    { "item": "minecraft:prismarine_crystals" },
+    { "item": "minecraft:prismarine_crystals" },
+
+    { "item": "minecraft:sand" },
+    { "item": "minecraft:sand" },
+    { "item": "minecraft:sand" }
+  ],
+  "results": [
+    {
+      "item": "automationexpansion:fluorite_crystals"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

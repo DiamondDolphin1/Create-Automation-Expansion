@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "automationexpansion:block/raw_ruby_block"
+    }
+  }
+}
