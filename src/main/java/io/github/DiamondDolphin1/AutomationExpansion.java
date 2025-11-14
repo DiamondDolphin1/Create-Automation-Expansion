@@ -19,7 +19,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
     CreativeTabInit.TABS.register(bus);
     BlockInit.BLOCKS.register(bus);
     BlockEntityInit.BLOCK_ENTITIES.register(bus);
-       FluidInit.FLUID_TYPES.register(bus);
        FluidInit.FLUIDS.register(bus);
 
    }

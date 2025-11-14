@@ -4,6 +4,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -94,5 +95,10 @@ public static final RegistryObject<BlockItem> Example_Screen_Block = ITEMS.regis
         () -> new BlockItem(BlockInit.EXAMPLE_SCREEN_BLOCK.get(),
                 new Item.Properties()
                         .rarity(Rarity.COMMON)
+        ));
+
+public static final RegistryObject<Item> Pentafluro_water_bucket = ITEMS.register("pentafluro_water_bucket",
+        () -> new Item(new Item.Properties()
+                .rarity(Rarity.RARE)
         ));
  }

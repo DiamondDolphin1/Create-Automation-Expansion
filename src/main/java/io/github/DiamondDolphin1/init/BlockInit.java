@@ -2,10 +2,15 @@ package io.github.DiamondDolphin1.init;
 
 import io.github.DiamondDolphin1.automationexpansion.block.*;
 import io.github.DiamondDolphin1.automationexpansion.block.crops.CrystaliteBudBlock;
+
+import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraftforge.client.model.obj.ObjMaterialLibrary;
+import net.minecraftforge.fluids.IFluidBlock;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -50,4 +55,8 @@ public class BlockInit {
     public static final RegistryObject<ExampleScreenBlock> EXAMPLE_SCREEN_BLOCK = BLOCKS.register("example_screen_block",
             () -> new ExampleScreenBlock(BlockBehaviour.Properties.copy(Blocks.BEEHIVE)
             ));
+
+    public static final RegistryObject<LiquidBlock> PENTAFLURO_WATER_BLOCK = BLOCKS.register("pentafluro_water_block",
+            () -> new LiquidBlock(() -> (net.minecraft.world.level.material.FlowingFluid) FluidInit.PENTAFLURO_WATER.get(),
+                    BlockBehaviour.Properties.copy(Blocks.WATER)));
 }
