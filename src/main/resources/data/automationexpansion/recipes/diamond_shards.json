@@ -1,0 +1,38 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "automationexpansion"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "automationexpansion:crushed_ruby"
+    },
+    {
+      "item": "automationexpansion:crushed_ruby"
+    },
+    {
+      "item": "automationexpansion:crushed_ruby"
+    },
+    {
+      "item": "automationexpansion:coal_chunks"
+    },
+    {
+      "item": "automationexpansion:coal_chunks"
+    },
+    {
+      "item": "automationexpansion:coal_chunks"
+    },
+    {
+      "item": "automationexpansion:coal_chunks"
+    }
+  ],
+  "results": [
+    {
+      "item": "automationexpansion:diamond_shards"
+    }
+  ],
+  "heatRequirement": "heated"
+}

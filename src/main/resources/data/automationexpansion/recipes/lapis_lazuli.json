@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "automationexpansion"
+    }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:calcite",
+      "count": 4
+    },
+    {
+      "item": "minecraft:sand",
+      "count": 3
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "heatRequirement": "heated"
+}

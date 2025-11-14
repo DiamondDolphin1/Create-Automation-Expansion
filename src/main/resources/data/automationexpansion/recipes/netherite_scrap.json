@@ -1,0 +1,55 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "automationexpansion"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 500
+    },
+    {
+     "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "item": "create:crushed_raw_gold"
+    },
+    {
+      "item": "automationexpansion:netherite_shrapnel"
+    },
+    {
+      "item": "automationexpansion:netherite_shrapnel"
+    },
+    {
+      "item": "automationexpansion:netherite_shrapnel"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "heatRequirement": "superheated"
+}
